@@ -1,12 +1,4 @@
 
-
-//PROBLEM! How do I clear the crystal value array after each round?
-//Can I use a for each loop for my clicks?
-
-
-
-
-
 var score;
 var wins = 0;
 var losses = 0;
