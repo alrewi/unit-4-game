@@ -1,0 +1,63 @@
+
+/*Global CSS*/
+body {
+    background-image: url("../../assets/images/dark-grey-terrazzo.png");
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 32px;
+    color: white;
+    padding: 10px 0 20px 10px;
+}
+h3 {
+    text-align: center;
+}
+
+/*Instruction Box*/
+.instructions {
+    height: 30%;
+    width: 50%;
+    background-color: transparent;
+    color: white;
+    padding: 0 0 0 10px;
+}
+
+/*Random Number and Score Boxes*/
+.randomNumber, .score {
+    background-color: white;
+    height: 75px;
+    width: 25%;
+    margin: 20px 10px 0 10px;
+    float: left;
+}
+
+/*Crystal Area*/
+.crystalPalace {
+    height: 200px;
+    width: 52%;
+    background-color: white;
+    margin: 20px 400px 20px 10px;
+    float: left;
+    text-align: center;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.crystal {
+    padding-top: 13px;
+}
+
+/*Wins and Losses Boxes*/
+.wins, .losses {
+    background-color: white;
+    height: 75px;
+    width: 25%;
+    margin: 0 10px 0 10px;
+    float: left;
+}
